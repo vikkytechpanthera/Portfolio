@@ -14,6 +14,11 @@
   --tag-bg: #eee;
   --footer-text: #777;
   --thumbnail-bg: #1f2d3d;
+  --button-bg: #ddd;
+  --button-text: #111;
+  --button-border: #ccc;
+  --button-hover: #bbb;
+  --button-hover-text: #000;
 }
 
 /* Dark Mode Variables */
@@ -25,6 +30,11 @@ body.dark {
   --tag-bg: #3a3a3a;
   --footer-text: #aaa;
   --thumbnail-bg: #394b61;
+  --button-bg: #444;
+  --button-text: #f0f0f0;
+  --button-border: #666;
+  --button-hover: #666;
+  --button-hover-text: #fff;
 }
 
 /* Responsive Layout */
@@ -105,7 +115,13 @@ h2 {
   padding: 15px;
   text-align: left;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+  .project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
 
 .project-thumbnail {
   height: 120px;
@@ -118,6 +134,30 @@ h2 {
   font-size: 20px;
   margin: 10px 0 5px;
 }
+
+.project-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.project-links a {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--button-border);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: var(--button-hover);
+  color: var(--button-hover-text);
+}
+
 
 .skill-tags {
   display: flex;

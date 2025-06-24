@@ -1,42 +1,66 @@
-    [
-    {
-        "title": "Image Search",
-        "description": "Search and display images using a public API.",
-        "image": "assets/images/image_search.png"
-    },
-    {
-        "title": "News Magnet",
-        "description": "Aggregates the latest news articles by category.",
-        "image": "assets/images/news_magnet.png"
-    },
-    {
-        "title": "Quix API Pull",
-        "description": "Pulls real-time data from an external API with styling.",
-        "image": "assets/images/quix_API_pull.png"
-    },
-    {
-        "title": "Quiz App",
-        "description": "A fully interactive JavaScript-based quiz application.",
-        "image": "assets/images/quiz_app.png"
-    },
-    {
-        "title": "Quiz Page",
-        "description": "Styled static page for a quiz landing or results.",
-        "image": "assets/images/quiz_page.png"
-    },
-    {
-        "title": "SparkEd Tech",
-        "description": "Landing page design for an educational platform.",
-        "image": "assets/images/sparkEd_tech.png"
-    },
-    {
-        "title": "To-Do List",
-        "description": "Manage your daily tasks with localStorage persistence.",
-        "image": "assets/images/todo_list.png"
-    },
-    {
-        "title": "YouTube Clone",
-        "description": "A responsive YouTube-like interface with dummy videos.",
-        "image": "assets/images/youtube_clone.png"
-    }
-    ]
+[
+  {
+    "title": "Image Search",
+    "description": "Search and display images using a public API.",
+    "image": "assets/images/image_search.png",
+    "github": "https://github.com/vikkytechpanthera/image_search",
+    "demo": "https://vikkytechpanthera.github.io/image_search/",
+    "tags": ["JavaScript", "API"]
+  },
+  {
+    "title": "News Magnet",
+    "description": "Aggregates the latest news articles by category.",
+    "image": "assets/images/news_magnet.png",
+    "github": "https://github.com/vikkytechpanthera/news-magnet",
+    "demo": "https://vikkytechpanthera.github.io/news-magnet/",
+    "tags": ["JavaScript", "API"]
+  },
+  {
+    "title": "Quiz API Pull",
+    "description": "Pulls real-time data from an external API with styling.",
+    "image": "assets/images/quix_API_pull.png",
+    "github": "https://github.com/vikkytechpanthera/API_quiz_pull",
+    "demo": "https://vikkytechpanthera.github.io/API_quiz_pull/",
+    "tags": ["JavaScript", "API"]
+  },
+  {
+    "title": "Quiz App",
+    "description": "A fully interactive JavaScript-based quiz application.",
+    "image": "assets/images/quiz_app.png",
+    "github": "https://github.com/vikkytechpanthera/quiz-app",  
+    "demo": "",  
+    "tags": ["JavaScript", "UI"]
+  },
+  {
+    "title": "Quiz Page",
+    "description": "Styled static page for a quiz landing or results.",
+    "image": "assets/images/quiz_page.png",
+    "github": "https://github.com/vikkytechpanthera/quiz-page",
+    "demo": "https://vikkytechpanthera.github.io/quiz-page/",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "title": "SparkEd Tech",
+    "description": "Landing page design for an educational platform.",
+    "image": "assets/images/sparkEd_tech.png",
+    "github": "https://github.com/vikkytechpanthera/Spark-Ed-Tech",
+    "demo": "https://vikkytechpanthera.github.io/Spark-Ed-Tech/",
+    "tags": ["HTML", "CSS", "Landing"]
+  },
+  {
+    "title": "To-Do List",
+    "description": "Manage your daily tasks with localStorage persistence.",
+    "image": "assets/images/todo_list.png",
+    "github": "https://github.com/vikkytechpanthera/To-Do-List",
+    "demo": "https://vikkytechpanthera.github.io/To-Do-List/",
+    "tags": ["JavaScript", "Productivity"]
+  },
+  {
+    "title": "YouTube Clone",
+    "description": "A responsive YouTube-like interface with dummy videos.",
+    "image": "assets/images/youtube_clone.png",
+    "github": "https://github.com/vikkytechpanthera/vikkytube.com",
+    "demo": "https://vikkytechpanthera.github.io/vikkytube.com/",
+    "tags": ["HTML", "CSS", "UI"]
+  }
+]

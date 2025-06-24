@@ -28,7 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
             background-position: center;
           "></div>
           <h3>${project.title}</h3>
-          <p>${project.description}</p>
+              <p>${project.description}</p>
+              <div class="project-links">
+                <a href="${project.github}" target="_blank">GitHub</a>
+                <a href="${project.demo}" target="_blank">Live Demo</a>
+              </div>
+
         </div>
       `).join('');
     })
