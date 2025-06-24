@@ -1,0 +1,42 @@
+    [
+    {
+        "title": "Image Search",
+        "description": "Search and display images using a public API.",
+        "image": "assets/images/image_search.png"
+    },
+    {
+        "title": "News Magnet",
+        "description": "Aggregates the latest news articles by category.",
+        "image": "assets/images/news_magnet.png"
+    },
+    {
+        "title": "Quix API Pull",
+        "description": "Pulls real-time data from an external API with styling.",
+        "image": "assets/images/quix_API_pull.png"
+    },
+    {
+        "title": "Quiz App",
+        "description": "A fully interactive JavaScript-based quiz application.",
+        "image": "assets/images/quiz_app.png"
+    },
+    {
+        "title": "Quiz Page",
+        "description": "Styled static page for a quiz landing or results.",
+        "image": "assets/images/quiz_page.png"
+    },
+    {
+        "title": "SparkEd Tech",
+        "description": "Landing page design for an educational platform.",
+        "image": "assets/images/sparkEd_tech.png"
+    },
+    {
+        "title": "To-Do List",
+        "description": "Manage your daily tasks with localStorage persistence.",
+        "image": "assets/images/todo_list.png"
+    },
+    {
+        "title": "YouTube Clone",
+        "description": "A responsive YouTube-like interface with dummy videos.",
+        "image": "assets/images/youtube_clone.png"
+    }
+    ]
