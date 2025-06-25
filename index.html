@@ -7,42 +7,53 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-
+ <header>
+  <div class="navigation">
     <h1>Victor Olayiwole</h1>
-    <nav>
+
+    <!-- Hamburger button -->
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">&#9776;</button>
+
+    <!-- Navigation -->
+    <nav id="navbar">
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a front-end developer who loves building simple, beautiful websites.</p>
-  </section>
 
-  <section id="projects">
+
+  <div class="container">
+     <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a front-end developer who loves building simple, beautiful websites.</p>
+     </section>
+
+     <section id="projects">
         <h2>My Projects</h2>
         <div id="projectGrid" class="project-grid">
             <!-- Cards will be injected here by script.js -->
         </div>
-  </section>
+      </section>
 
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skill-tags">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-    </div>
-  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>victorolayiwole@gmail.com</p>
-  </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>victorolayiwole@gmail.com</p>
+    </section>
+  </div>
+ 
 
   <footer>
      <label class="toggle-switch">
@@ -50,7 +61,7 @@
         <span class="slider"></span>
         <span class="label-text">Dark Mode</span>
    </label>
-    <p>&copy; 2025 Your Name</p>
+    <p>&copy; 2025 Vikkytech</p>
   </footer>
   <script src="script.js"></script>
 

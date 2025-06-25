@@ -27,8 +27,8 @@
     "title": "Quiz App",
     "description": "A fully interactive JavaScript-based quiz application.",
     "image": "assets/images/quiz_app.png",
-    "github": "https://github.com/vikkytechpanthera/quiz-app",  
-    "demo": "",  
+    "github": "https://github.com/vikkytechpanthera/quiz_js",  
+    "demo": "https://vikkytechpanthera.github.io/quiz_js/",  
     "tags": ["JavaScript", "UI"]
   },
   {

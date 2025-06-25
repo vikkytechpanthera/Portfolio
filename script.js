@@ -1,8 +1,7 @@
-// 🔁 Dark mode toggle — set up immediately after DOM loads
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("darkModeToggle");
 
-  // Load stored preference
+  // 🔁 Load stored preference
   if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
     toggle.checked = true;
@@ -28,12 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
             background-position: center;
           "></div>
           <h3>${project.title}</h3>
-              <p>${project.description}</p>
-              <div class="project-links">
-                <a href="${project.github}" target="_blank">GitHub</a>
-                <a href="${project.demo}" target="_blank">Live Demo</a>
-              </div>
-
+          <p>${project.description}</p>
+          <div class="project-links">
+            <a href="${project.github}" target="_blank">GitHub</a>
+            <a href="${project.demo}" target="_blank">Live Demo</a>
+          </div>
         </div>
       `).join('');
     })
@@ -44,4 +42,20 @@ document.addEventListener("DOMContentLoaded", () => {
         grid.innerHTML = `<p>Failed to load projects.</p>`;
       }
     });
+
+  // 🍔 Hamburger Menu Toggle
+  const hamburger = document.getElementById("hamburgerBtn");
+  const navbar = document.getElementById("navbar");
+
+  if (hamburger && navbar) {
+    hamburger.addEventListener("click", () => {
+      navbar.classList.toggle("show");
+    });
+
+    navbar.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        navbar.classList.remove("show");
+      });
+    });
+  }
 });
