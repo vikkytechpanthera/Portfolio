@@ -316,11 +316,12 @@ footer {
   }
 
   body.dark nav {
-    background-color: rgba(26, 26, 26, 0.85); /* Dark mode */
+    background-color: rgba(26, 26, 26, 0.98); /* Dark mode */
   }
 
   nav a {
     text-align: left;
+    width: 100%;
   }
 
 
