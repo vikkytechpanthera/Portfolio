@@ -47,15 +47,27 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.getElementById("hamburgerBtn");
   const navbar = document.getElementById("navbar");
 
-  if (hamburger && navbar) {
-    hamburger.addEventListener("click", () => {
-      navbar.classList.toggle("show");
-    });
+  // Show/hide nav on hamburger click
+  hamburger.addEventListener("click", (e) => {
+    e.stopPropagation(); // prevent this click from closing the menu
+    navbar.classList.toggle("show");
+  });
 
-    navbar.querySelectorAll("a").forEach(link => {
-      link.addEventListener("click", () => {
-        navbar.classList.remove("show");
-      });
+  // Close nav when clicking a nav link
+  navbar.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      navbar.classList.remove("show");
     });
-  }
+  });
+
+  // Close nav when clicking outside
+  document.addEventListener("click", (e) => {
+    if (
+      navbar.classList.contains("show") &&
+      !navbar.contains(e.target) &&
+      !hamburger.contains(e.target)
+    ) {
+      navbar.classList.remove("show");
+    }
+  });
 });

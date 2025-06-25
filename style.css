@@ -320,14 +320,13 @@ footer {
   }
 
   nav a {
-    margin-left: 0;
-    margin-right: 15px;
+    text-align: left;
   }
 
 
   header {
     align-items: flex-start;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
   }
 
   body {
@@ -337,4 +336,8 @@ footer {
   .project-grid {
     grid-template-columns: 1fr;
   }
+  .container {
+    padding: 5px;
+  }
+  
 }
