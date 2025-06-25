@@ -62,5 +62,13 @@
     "github": "https://github.com/vikkytechpanthera/vikkytube.com",
     "demo": "https://vikkytechpanthera.github.io/vikkytube.com/",
     "tags": ["HTML", "CSS", "UI"]
+  },
+  {
+    "title": "Vikkytech WEB DEV JOURNEY",
+    "description": "A portfolio themed webpage that aims to highlight my web dev journey.",
+    "image": "assets/images/vikkytech_portfolio.png",
+    "github": "https://github.com/vikkytechpanthera/vikkytech-portfolio.com",
+    "demo": "https://vikkytechpanthera.github.io/vikkytech-portfolio.com/",
+    "tags": ["HTML", "CSS", "UI"]
   }
 ]
