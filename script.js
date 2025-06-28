@@ -43,6 +43,34 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
+    // 🎨 Load Graphic Design Projects
+fetch("graphics.json")
+  .then(res => res.json())
+  .then(data => {
+    const grid = document.getElementById("graphicGrid");
+    if (!grid) return;
+
+    grid.innerHTML = data.map(project => `
+      <div class="project-card">
+        <div class="project-thumbnail" style="
+          background-image: url('${project.image}');
+          background-size: cover;
+          background-position: center;
+        "></div>
+        <h3>${project.title}</h3>
+        <p>${project.description}</p>
+        <div class="project-links">
+        <a href="${project.link}" target="_blank">View</a>
+      </div>
+
+      </div>
+    `).join('');
+  })
+  .catch(err => {
+    console.error("Failed to load graphic design projects:", err);
+  });
+
+
   // 🍔 Hamburger Menu Toggle
   const hamburger = document.getElementById("hamburgerBtn");
   const navbar = document.getElementById("navbar");

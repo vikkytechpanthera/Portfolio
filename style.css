@@ -37,6 +37,9 @@ body.dark {
   --button-hover-text: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 /* Main Styling */
@@ -143,12 +146,19 @@ nav a:hover {
   color: var(--text-color);
 }
 
+#graphics {
+  scroll-margin-top: 100px; /* Adjust for your navbar height */
+}
+
+
 .container {
   padding: 48px;
 }
 
+
 section {
   margin-bottom: 60px;
+   scroll-margin-top: 100px; /* match your nav height */
 }
 
 h2 {
@@ -158,8 +168,8 @@ h2 {
 }
 
 #about p {
-  font-size: 18px;
-  max-width: 600px;
+  font-size: 15px;
+  max-width: max-content;
 }
 
 .project-grid {
@@ -230,6 +240,13 @@ h2 {
   border-radius: 8px;
   font-weight: 500;
 }
+
+.pinterest-board {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 
 #contact p {
   font-size: 18px;
