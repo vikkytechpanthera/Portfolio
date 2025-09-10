@@ -70,5 +70,13 @@
     "github": "https://github.com/vikkytechpanthera/vikkytech-portfolio.com",
     "demo": "https://vikkytechpanthera.github.io/vikkytech-portfolio.com/",
     "tags": ["HTML", "CSS", "UI"]
+  },
+  {
+    "title": "",
+    "description": "This project is a web-based worker database viewer that pulls data from Google Sheets, displays worker profiles and allows quick access via search or QR code scanning.",
+    "image": "assets/images/worker_verification_portal.png",
+    "github": "https://github.com/vikkytechpanthera/worker-db-viewer",
+    "demo": "https://vikkytechpanthera.github.io/worker-db-viewer/",
+    "tags": ["HTML", "CSS", "UI"]
   }
 ]
