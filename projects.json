@@ -78,5 +78,13 @@
     "github": "https://github.com/vikkytechpanthera/worker-db-viewer",
     "demo": "https://vikkytechpanthera.github.io/worker-db-viewer/",
     "tags": ["HTML", "CSS", "UI"]
+  },
+  {
+    "title": "",
+    "description": "This project is a web-based standard software package with Graphical User Interface (GUI) using any higher level programming language to perform basic statistics and survey calculations",
+    "image": "assets/images/survey_app.png",
+    "github": "https://github.com/vikkytechpanthera/Survey-stat-app",
+    "demo": "https://vikkytechpanthera.github.io/Survey-stat-app/",
+    "tags": ["HTML", "CSS", "UI"]
   }
 ]
