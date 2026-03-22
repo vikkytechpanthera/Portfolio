@@ -86,5 +86,13 @@
     "github": "https://github.com/vikkytechpanthera/Survey-stat-app",
     "demo": "https://vikkytechpanthera.github.io/Survey-stat-app/",
     "tags": ["HTML", "CSS", "UI"]
+  },
+   {
+    "title": "",
+    "description": "StudyHive is a real-time collaborative study platform where students can create and join study groups, chat with teammates, draw together on a shared live whiteboard, and hop on group video calls — all in one app",
+    "image": "assets/images/study_hive.png",
+    "github": "https://github.com/vikkytechpanthera/studyhive",
+    "demo": "https://vikkytechpanthera.github.io/studyhive/",
+    "tags": ["HTML", "CSS", "UI"]
   }
 ]
